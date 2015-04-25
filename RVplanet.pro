@@ -1,5 +1,3 @@
-PRO RVplanet, M_p_E, M_star_SOL, P_pl_day, e, num_p, no_p, phase_pl, inc
-
 ;+
 ; NAME:
 ;   RVgen
@@ -40,6 +38,8 @@ PRO RVplanet, M_p_E, M_star_SOL, P_pl_day, e, num_p, no_p, phase_pl, inc
 ;   Created, Oct 2012, JMA 
 ;   Modified, Jan 2012, HK (added some common blocks to use with other code)
 ;-
+
+PRO RVplanet, M_p_E, M_star_SOL, P_pl_day, e, num_p, no_p, phase_pl, inc
 
 ; define variables:
 
